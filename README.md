@@ -1,2 +1,2 @@
-# ubi-app
+# Ubi App
 Applicazione iOS Ubi.
