@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Volumes/OS X/Users/Andrea/Desktop/PROJECTS/Android/Ubi/app/build/intermediates/pre-dexed/debug/classes-5c8cbf6b1f651a682913bc8180288bf4b3c5e4e5.jar"
+        jar="/Volumes/OS X/Users/Andrea/Desktop/PROJECTS/Android/Ubi/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e5531cb41e35c81a051a274945542f6b31e4c97e"/>
+    <item
+        dex="/Volumes/OS X/Users/Andrea/Desktop/PROJECTS/Android/Ubi/app/build/intermediates/pre-dexed/debug/classes-4122a1a6d4f64ff93efc0bca07c9d3d3d236c6f1.jar"
+        jar="/Volumes/OS X/Users/Andrea/Desktop/PROJECTS/Android/Ubi/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+    <item
+        dex="/Volumes/OS X/Users/Andrea/Desktop/PROJECTS/Android/Ubi/app/build/intermediates/pre-dexed/debug/classes-d42e28dd2d32ec16c1d05a010dac1f157656228a.jar"
+        jar="/Volumes/OS X/Users/Andrea/Desktop/PROJECTS/Android/Ubi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa"/>
+    <item
+        dex="/Volumes/OS X/Users/Andrea/Desktop/PROJECTS/Android/Ubi/app/build/intermediates/pre-dexed/debug/twitter4j-core-4.0.2-a419ab62017840e8119deaa395337d614e08257a.jar"
+        jar="/Users/andreamontanari/.gradle/caches/modules-2/files-2.1/org.twitter4j/twitter4j-core/4.0.2/6555e7c45f5db0006823731b2ddb536d481e11d1/twitter4j-core-4.0.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6555e7c45f5db0006823731b2ddb536d481e11d1"/>
+    <item
+        dex="/Volumes/OS X/Users/Andrea/Desktop/PROJECTS/Android/Ubi/app/build/intermediates/pre-dexed/debug/classes-f3c3681174174e0ee12c1eceeb5a1a9efa6284a0.jar"
+        jar="/Volumes/OS X/Users/Andrea/Desktop/PROJECTS/Android/Ubi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef"/>
+    <item
+        dex="/Volumes/OS X/Users/Andrea/Desktop/PROJECTS/Android/Ubi/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.2-206ca50bb691bf44713b59548b91faead9046a35.jar"
+        jar="/Users/andreamontanari/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.2/91c20388c9a45f62b5ed8fe0502bb76ff6251fc7/bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7"/>
+    <item
+        dex="/Volumes/OS X/Users/Andrea/Desktop/PROJECTS/Android/Ubi/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-66795c916e487bae1dbfd9f8fa560a2c78acdc6d.jar"
+        jar="/Volumes/OS X/Users/Andrea/Desktop/PROJECTS/Android/Ubi/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="/Volumes/OS X/Users/Andrea/Desktop/PROJECTS/Android/Ubi/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-bca9cd8c8082330ef7549e0398af852faae531fd.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="/Volumes/OS X/Users/Andrea/Desktop/PROJECTS/Android/Ubi/app/build/intermediates/pre-dexed/debug/classes-810807c4d8d0b45279fe010d3013b7134d07e989.jar"
+        jar="/Volumes/OS X/Users/Andrea/Desktop/PROJECTS/Android/Ubi/app/build/intermediates/exploded-aar/Ubi/facebook/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="c3efc983daf7123b22400953a4b7719b5f2ec646"/>
+
+</pre-dex-items>

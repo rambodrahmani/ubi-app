@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ubi</string>
+    <string name="logo">LOGO Place</string>
+    <string name="title">Ubi</string>
+    <string name="fb">Facebook Login</string>
+    <string name="twitter">Twitter Login</string>
+    <string name="register">Email register</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_timeline">TimelineActivity</string>
+    <string name="title_activity_msgs">MessagesActivity</string>
+    <string name="title_activity_sett">SettingsActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sett">Settings</string>
+    <string name="msgs">Messages</string>
+    <string name="twinfomail">We need your Twitter e-mail to sign you in Ubi,
+                             we will keep it in a safe place...
+                             we don\'t like spam as much as you!!</string>
+    <string name="timeline">Time line</string>
+    <string name="gpsmess">GPS is disabled, enable it to start</string>
+    <string name="canc">Cancel</string>
+    <string name="google_maps_key">AIzaSyAwZhqRxEImVylt-8HVkQegoO2JiQUHXiY</string>
+    <!-- Facebook Configurations -->
+    <string name="facebook_app_id">294352457421668</string>
+    <string name="facebook_app_secret">27504d68f1af58a81087c5fb7ae5b6d0</string>
+    <string name="token">CAAJGsmYw1PEBAP7dDPghnRZAH77BEMgfKGRKflL4ip4YZAzQfYZAw8NHqWGK5e9fkR6O0Wp4I0TWZA3yTDpZBnIYeANZAOhBCG8dTC8EhZA2onxLnu2qrpN6NXWwjyNIYvu00jaX5vecNkMK9cP2atVZAvEvTiM23iaNnfrnCbUFBAZAbM3Kc0HpMOOAMWUnfAoPAkty6N2FtvZC1xA61O7KNNaSpmvaG6ZBZBcZD</string>
+    <!-- End Configurations -->
+
+    <!-- Twitter Configurations -->
+    <string name="twitter_callback">http://ubi.android.app</string>
+    <string name="twitter_consumer_key">nazlyDpyVJvLdj0tktcMrqY0K</string>
+    <string name="twitter_consumer_secret">hLP1Mgzw5NWvRJvPsPFwHIgj2V6kPYtEcohggCqvuMpPiDDAtu</string>
+    <string name="twitter_oauth_verifier">oauth_verifier</string>
+    <!-- End Configurations -->
+
+
+
+</resources>
