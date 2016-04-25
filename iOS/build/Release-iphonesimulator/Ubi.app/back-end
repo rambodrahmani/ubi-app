@@ -1,0 +1,78 @@
+
+- (MKAnnotationView *)mapView:(MKMapView *)mapview viewForAnnotation:(id <MKAnnotation>)annotation
+{
+if ([annotation isKindOfClass:[MKUserLocation class]])
+{
+MKAnnotationView *annotationView = [_mapView dequeueReusableAnnotationViewWithIdentifier:EmailAccesso];
+if(annotationView)
+return annotationView;
+else
+{
+UIImage* annImage = [profilePics objectForKey:EmailAccesso];
+
+MKAnnotationView *annotationView = [[MKAnnotationView alloc] initWithAnnotation:annotation
+reuseIdentifier:EmailAccesso];
+
+UIImage *imgPinBorder = [UIImage imageNamed:@"gborder.png"];
+UIImageView *imageViewPinBorder = [[UIImageView alloc] initWithImage:imgPinBorder];
+imageViewPinBorder.center = annotationView.center;
+[annotationView addSubview:imageViewPinBorder];
+
+UIImage *img = annImage;
+UIImageView *imageView = [[UIImageView alloc] initWithImage:img];
+imageView.center = annotationView.center;
+[annotationView addSubview:imageView];
+
+UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+[rightButton addTarget:self action:@selector(writeSomething:) forControlEvents:UIControlEventTouchUpInside];
+[rightButton setTitle:annotation.title forState:UIControlStateNormal];
+annotationView.rightCalloutAccessoryView = rightButton;
+annotationView.canShowCallout = YES;
+annotationView.draggable = YES;
+
+return annotationView;
+}
+}
+else
+{
+MKAnnotationView *annotationView = [_mapView dequeueReusableAnnotationViewWithIdentifier:[annotation title]];
+if(annotationView)
+return annotationView;
+else
+{
+NSURL * imageURL  = [NSURL URLWithString:[profilePics objectForKey:[annotation title]]];
+NSData * imageData = [NSData dataWithContentsOfURL:imageURL];
+UIImage * image = [UIImage imageWithData:imageData];
+
+CGSize newSize = CGSizeMake(60, 60);
+UIGraphicsBeginImageContextWithOptions(newSize, NO, 0.0);
+[image drawInRect:CGRectMake(0, 0, newSize.width, newSize.height)];
+UIImage * newImage = UIGraphicsGetImageFromCurrentImageContext();
+UIGraphicsEndImageContext();
+
+newImage = [UIImage roundedRectImageFromImage:newImage size:newImage.size withCornerRadius:(newImage.size.width/2)];
+
+MKAnnotationView *annotationView = [[MKAnnotationView alloc] initWithAnnotation:annotation
+reuseIdentifier:[annotation title]];
+UIImage *imgPinBorder = [UIImage imageNamed:@"bborder.png"];
+UIImageView *imageViewPinBorder = [[UIImageView alloc] initWithImage:imgPinBorder];
+imageViewPinBorder.center = annotationView.center;
+[annotationView addSubview:imageViewPinBorder];
+
+UIImage *img = newImage;
+UIImageView *imageView = [[UIImageView alloc] initWithImage:img];
+imageView.center = annotationView.center;
+[annotationView addSubview:imageView];
+
+UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+[rightButton addTarget:self action:@selector(writeSomething:) forControlEvents:UIControlEventTouchUpInside];
+[rightButton setTitle:annotation.title forState:UIControlStateNormal];
+annotationView.rightCalloutAccessoryView = rightButton;
+annotationView.canShowCallout = YES;
+annotationView.draggable = YES;
+
+return annotationView;
+}
+}
+return nil;
+}
