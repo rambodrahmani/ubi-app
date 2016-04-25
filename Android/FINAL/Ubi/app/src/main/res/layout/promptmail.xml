@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+
+
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="8"
+        android:id="@+id/editText"
+        android:hint="Write your email, please" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:id="@+id/dialogButtonOK"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:onClick="getMail"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/whyBtn"
+        android:src="@drawable/ic_launcher"
+        android:layout_alignTop="@+id/dialogButtonOK"
+        android:layout_toRightOf="@+id/dialogButtonOK"
+        android:layout_toEndOf="@+id/dialogButtonOK" />
+
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:minHeight="100dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profilePic"
+        android:src="@drawable/am"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Name Surname"
+        android:id="@+id/name"
+        android:layout_toEndOf="@+id/profilePic"
+        android:layout_alignTop="@+id/profilePic"
+        android:layout_toRightOf="@+id/profilePic"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Last post"
+        android:id="@+id/lastpost"
+        android:layout_toEndOf="@+id/profilePic"
+        android:layout_toRightOf="@+id/profilePic"
+        android:layout_alignTop="@+id/name"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignStart="@+id/name"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

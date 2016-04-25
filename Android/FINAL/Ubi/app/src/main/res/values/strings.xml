@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ubi</string>
+    <string name="logo">LOGO Place</string>
+    <string name="title">Ubi</string>
+    <string name="fb">Facebook Login</string>
+    <string name="twitter">Twitter Login</string>
+    <string name="register">Email register</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_timeline">TimelineActivity</string>
+    <string name="title_activity_msgs">MessagesActivity</string>
+    <string name="title_activity_sett">SettingsActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sett">Settings</string>
+    <string name="msgs">Messages</string>
+    <string name="twinfomail">We need your Twitter e-mail to sign you in Ubi,
+                             we will keep it in a safe place...
+                             we don\'t like spam as much as you!!</string>
+    <string name="timeline">Time line</string>
+    <string name="gpsmess">GPS is disabled, enable it to start</string>
+    <string name="canc">Cancel</string>
+    <string name="google_maps_key">AIzaSyA8HT_dp9T6ySashXOkcC0IzwZkahsCBfU</string>    <!-- chiave Rambod:  AIzaSyCz_LwBu3_NVxjabeF4ikO1323UbjTR7_w -->
+    <!-- Facebook Configurations -->
+    <string name="facebook_app_id">640681986020593</string>
+    <string name="facebook_app_secret">a1970330578c34bcf92fe22e20b095d2</string>
+    <!-- chiave fb Rambod
+       <string name="token">CAAELtkWp02QBAEAplAye9TZC8ZBGpCuNXSqEH9p9GKJOabMErZC1pb4qfWZAZAtuGeGxvZBflHf9paBFkSEX2ROKUlmzzVNr9aoeO4K4ZBb9eO8o1SBHFckkSLQ7KhJtTZAbcSmR9Ll7AdN5jt2KevFZAzmuSW9qZAdYoe8QM6I3KUA7x0zgrQTcSjxrely0MAENjpVR9q8bm2ebWGHbYm9y4H7XKVPfnuehMZD</string>
+    -->
+    <string name="token">CAAJGsmYw1PEBAF4Ox3uuniKjbFd6RNiqltDRDandygQVkXGilECHedtq6L0ccgfmx22hFA8ZCysPVq7FOVyXpQpGBWT4DqVxkcu5oJmIUypxIo3z63NVtDO9mZASjYqiCbQm6QiuEtX8bjoE3FJpgCRvSzkZBFBaq8pVtM1TQQknJQVdSIOvmJn1crngg83h0RDRhiYwZBhW431ZCTibIibNzsvZCW4JEZD</string>
+    <!-- End Configurations -->
+
+    <!-- Twitter Configurations -->
+    <string name="twitter_callback">http://ubi.android.app</string>
+    <string name="twitter_consumer_key">nazlyDpyVJvLdj0tktcMrqY0K</string>
+    <string name="twitter_consumer_secret">hLP1Mgzw5NWvRJvPsPFwHIgj2V6kPYtEcohggCqvuMpPiDDAtu</string>
+    <string name="twitter_oauth_verifier">oauth_verifier</string>
+    <!-- End Configurations -->
+
+
+
+</resources>
